@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "CorreosEntrega",
-    "slug": "CorreosEntrega",
+    "name": "GestiondeEntregas",
+    "slug": "GestiondeEntregas",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -20,6 +20,10 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-secure-store",
+      "expo-status-bar"
+    ]
   }
 }
